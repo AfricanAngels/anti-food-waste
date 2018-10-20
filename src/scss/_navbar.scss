@@ -1,0 +1,52 @@
+// Contents
+//
+// Navbar
+// Navbar brand
+// Navbar nav
+// Navbar text
+// Navbar divider
+// Responsive navbar
+// Navbar position
+
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center !important;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.navbar-bg {
+    background-color: $dark-bg;
+    height: 70px;
+
+    // .navTitle-wrap {
+    //     display: block;
+    // }
+}
+
+.navTitle-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-content: center;
+
+    .btn-link {
+        color: #ffffff;
+    }
+
+    .navTitle {
+        color: #ffffff;
+        text-align: center;
+        font-size: 1.2rem;
+        letter-spacing: 0.5px;
+        font-weight: 500;
+        text-transform: capitalize;
+        flex: 1;
+    }
+
+}
+

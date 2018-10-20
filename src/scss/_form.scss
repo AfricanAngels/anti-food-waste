@@ -1,0 +1,17 @@
+.form-group {
+    margin-bottom: 28px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    input::placeholder {
+        font-size: 0.9rem;
+        color: $text3;
+    }
+}
+.form-control {
+    height: 44px;
+    border: 1px solid rgba(0,0,0,0.20);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.12);
+}

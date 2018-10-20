@@ -1,0 +1,19 @@
+.btn-primary {
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: $main-color;
+    color: #ffffff;
+    // padding: 5px 15px;
+    height: 42px;
+    border-radius: 2px;
+    border: 0;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.12), 0 2px 2px 0 rgba(0,0,0,0.24);
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+}
