@@ -50,3 +50,40 @@
 
 }
 
+.sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    height: 100vh;
+    z-index: 999;
+    background: #7386D5;
+    color: #fff;
+    transition: all 0.3s;
+    overflow-y: scroll;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+.sidebar.active {
+    left: 0;
+}
+.overlay {
+    display: none;
+    position: fixed;
+    // full screen
+    width: 100vw;
+    height: 100vh;
+    // transparent black
+    background: rgba(0,0,0,0.7);
+    // middle layers, i.e. appears below the sidebar
+    z-index: 998;
+    opacity: 0;
+    // animate the transition
+    transition: all 0.5s ease-in-out;
+}
+
+// display .overlay when it has the .active class
+.overlay.active {
+    display: block;
+    opacity: 1;
+}
+
