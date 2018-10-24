@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
-import * as $  from 'jquery';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-signup',
@@ -9,7 +10,11 @@ import * as $  from 'jquery';
 })
 export class SignupComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
+
+  signupUser() {
+    this.router.navigateByUrl('/verified');
+  }
 
   ngOnInit() {
 
