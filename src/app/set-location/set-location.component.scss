@@ -1,0 +1,33 @@
+.setLocation-intro {
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #333333;
+}
+
+.setLocation-form {
+    margin-top: 30px;
+}
+
+.form-group {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    .search-input {
+        flex: 4;
+    }
+    .setLocation-btn-wrap {
+        flex: 0;
+    }
+
+    .btn {
+        height: 44px;
+        background-color: #ffffff;
+        border: 1px solid #38B449;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        cursor: pointer;
+        box-shadow: 0 0 2px 0 rgba(0,0,0,0.12), 0 2px 2px 0 rgba(0,0,0,0.24);
+    }
+}

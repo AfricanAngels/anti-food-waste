@@ -1,25 +1,16 @@
 import { NgModule, Component, OnInit } from '@angular/core';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import { AppMaterialModule } from './../app-material/app-material.module';
 
 import * as $ from 'jquery';
-
-@NgModule({
-  imports: [
-    BrowserAnimationsModule,
-    AppMaterialModule
-  ]
-})
 @Component({
-  selector: 'app-set-location',
-  templateUrl: './set-location.component.html',
-  styleUrls: ['./set-location.component.scss']
+  selector: 'app-sidenav',
+  templateUrl: './sidenav.component.html',
+  styleUrls: ['./sidenav.component.scss']
 })
 
-export class SetLocationComponent implements OnInit {
+
+export class SidenavComponent implements OnInit {
   events: string[] = [];
   opened: boolean;
-
   constructor() { }
 
   ngOnInit() {
@@ -29,6 +20,9 @@ export class SetLocationComponent implements OnInit {
     });
 
     $(document).ready(function () {
+      // $(".sidebar").mCustomScrollbar({
+      //     theme: "minimal"
+      // });
 
       $('#dismiss, .overlay').on('click', function () {
           // hide sidebar
