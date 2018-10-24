@@ -12,7 +12,8 @@ import { VerificationCompletedComponent } from './verification-completed/verific
 
 import { RouterModule, Routes } from '@angular/router';
 import { SetLocationComponent } from './set-location/set-location.component';
-import { SidenavComponent } from './sidenav/sidenav.component'
+import { SidenavComponent } from './sidenav/sidenav.component';
+import { ChooseActivityComponent } from './choose-activity/choose-activity.component'
 
 const appRoutes: Routes = [
   {path: '', redirectTo: 'signup', pathMatch: 'full'},
@@ -27,7 +28,8 @@ const appRoutes: Routes = [
     SignupComponent,
     VerificationCompletedComponent,
     SetLocationComponent,
-    SidenavComponent
+    SidenavComponent,
+    ChooseActivityComponent
   ],
   imports: [
     BrowserModule,

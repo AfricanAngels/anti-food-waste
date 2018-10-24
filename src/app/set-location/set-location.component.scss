@@ -1,7 +1,7 @@
 .setLocation-intro {
     text-align: center;
-    font-size: 1rem;
-    line-height: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
     color: #333333;
 }
 
@@ -14,6 +14,9 @@
     align-items: flex-end;
     justify-content: space-between;
 
+    label {
+        font-size: 1rem;
+    }
     .search-input {
         flex: 4;
     }
@@ -29,5 +32,13 @@
         letter-spacing: 0.5px;
         cursor: pointer;
         box-shadow: 0 0 2px 0 rgba(0,0,0,0.12), 0 2px 2px 0 rgba(0,0,0,0.24);
+    }
+}
+
+.button-group {
+    margin-top: 30px;
+
+    .btn {
+        width: 70%;
     }
 }
