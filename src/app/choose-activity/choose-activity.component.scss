@@ -1,0 +1,77 @@
+// @import "../../scss/styles";
+
+.navbar-bg {
+    background-color: #ffffff;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.30);
+}
+
+.navTitle {
+    color: #333333;
+    font-size: 1.1rem;
+    text-align: left;
+    margin-bottom: 0;
+}
+.goBack {
+    margin-right: 20px;
+}
+.icon {
+    background-image: url(../../assets/icons/left-arrow.png);
+    height: 24px;
+    width: 20px;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.welcome-note {
+    margin-top: 20px;
+
+    h4 {
+        font-size: 1.3rem;
+        line-height: 1.9rem;
+        text-align: center;
+        color: #333333;
+    }
+
+}
+
+.choose-activity-wrap {
+    margin-top: 30px;
+
+    .custom-control {
+        padding-left: 0;
+        margin-bottom: 20px;
+
+        .custom-control-label {
+            padding-left:50px;
+
+            &::before {
+                left: 0;
+                width: 2rem;
+                height: 2rem;
+                background-color: #ffffff;
+                border: 1px solid #38B449;
+            }
+
+            .lead {
+                font-size: 1.2rem;
+                line-height: 1.2rem;
+                font-weight: 500;
+            }
+            .activity-instruction {
+                margin-bottom: 0;
+                font-size: 0.9rem;
+                line-height: 1.3rem;
+            }
+        }
+        .customer-control-input:checked ~ .custom-control-label::before {
+            background-color: #38B449 !important;
+        }
+    }
+    .check-activity {
+        background: #FFFFFF;
+        border: 1px solid #DBDBDB;
+        border-radius: 4px;
+        padding: 15px;
+        box-shadow: 0 2px 4px 0 rgba(0,0,0,0.20);
+    }
+}

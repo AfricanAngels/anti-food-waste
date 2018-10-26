@@ -27,7 +27,7 @@ export class SetLocationComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    var mapProp = {
+    const mapProp = {
       center: new google.maps.LatLng(18.5793, 73.8143),
       zoom: 15,
       mapTypeId: google.maps.MapTypeId.ROADMAP
@@ -36,7 +36,7 @@ export class SetLocationComponent implements OnInit {
 
 
     $(document).ready(function() {
-      console.log("JQuery is working!!");
+      console.log('JQuery is working!!');
     });
 
     $(document).ready(function () {

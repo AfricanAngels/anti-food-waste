@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 // import { AppMaterialModule } from './app-material/app-material.module';
 import { MatSidenavModule } from '@angular/material';
@@ -19,7 +20,8 @@ const appRoutes: Routes = [
   {path: '', redirectTo: 'signup', pathMatch: 'full'},
   {path: 'signup', component: SignupComponent},
   {path: 'verified', component: VerificationCompletedComponent},
-  {path: 'set-location', component: SetLocationComponent}
+  {path: 'set-location', component: SetLocationComponent},
+  {path: 'choose-activity', component: ChooseActivityComponent}
 ];
 
 @NgModule({
@@ -33,6 +35,7 @@ const appRoutes: Routes = [
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     BrowserAnimationsModule,
     AngularFontAwesomeModule,
     // AppMaterialModule,
