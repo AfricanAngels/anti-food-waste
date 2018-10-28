@@ -1,22 +1,19 @@
-<!-- <mat-sidenav-container class="example-container">
-    <mat-sidenav #sidenav mode="side" [(opened)]="opened" (opened)="events.push('open!')"
-                 (closed)="events.push('close!')">
-      Sidenav content
-    </mat-sidenav>
-
-    <mat-sidenav-content>
-      <p><button mat-button (click)="sidenav.toggle()">sidenav.toggle()</button></p>
-      <p>Events:</p>
-      <div class="example-events">
-        <div *ngFor="let e of events">{{e}}</div>
-      </div>
-    </mat-sidenav-content>
-  </mat-sidenav-container> -->
-
-  <div class="sidebar">
+<div class="sidebar">
     <ul>
       <li>
-        <a>Home</a>
+        <a class="btn btn-primary" type="button">Sign Up</a>
+      </li>
+      <li>
+        <a>Browse Items</a>
+      </li>
+      <li>
+        <a>Request Items</a>
+      </li>
+      <li>
+        <a>Offer Items</a>
+      </li>
+      <li>
+        <a class="btn btn-secondary" type="button">Sign In</a>
       </li>
     </ul>
   </div>

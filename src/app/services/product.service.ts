@@ -13,7 +13,7 @@ export class ProductService {
       {
         'productId': 1,
         'productName': 'Small bag of rice',
-        'productDescription': 'These are available from a family party for limited period…',
+        'productDescription': 'These are available from a family party for limited period family party for limited period family party for limited period family party for limited period',
         'productLocation': 'Ajah',
         'author': 'Jide Lambo',
         'productImg': 'small-rice.png'

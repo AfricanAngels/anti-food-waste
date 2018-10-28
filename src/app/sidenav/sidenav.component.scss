@@ -1,14 +1,32 @@
-.example-container {
-position: absolute;
-top: 0;
-bottom: 0;
-left: 0;
-right: 0;
-}
+.sidebar {
+    padding: 20px;
 
-.example-events {
-width: 300px;
-height: 200px;
-overflow: auto;
-border: 1px solid #555;
+    ul {
+        list-style: none;
+        padding-left: 0;
+
+        li {
+            margin-bottom: 20px;
+
+            a {
+                font-weight: 500;
+            }
+        }
+    }
+
+    .btn-primary {
+        -webkit-appearance: none;
+        text-transform: capitalize;
+        color: #ffffff;
+        height: inherit;
+        width: 90%;
+    }
+
+    .btn-secondary {
+        background-color: #ffffff;
+        color: #333;
+        border: 1px solid #38B449;
+        width: 90%;
+        -webkit-appearance: none;
+    }
 }

@@ -12,6 +12,8 @@ export class ListingHomepageComponent implements OnInit {
 
   products: IProducts[] = [];
 
+  viewMode: any = 'tab1';
+
   constructor(private productService: ProductService) { }
 
   ngOnInit() {

@@ -12,6 +12,7 @@
     text-align: center;
     text-transform: uppercase;
     cursor: pointer;
+    -webkit-appearance: none;
 }
 
 .button-group {
@@ -24,4 +25,9 @@
     line-height: 1.4rem;
     height: 36px;
     text-transform: inherit;
+}
+.btn-secondary {
+    background-color: #ffffff;
+    color: #333;
+    border: 1px solid #38B449;
 }

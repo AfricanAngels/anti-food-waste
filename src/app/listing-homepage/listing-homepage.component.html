@@ -6,13 +6,13 @@
 
     <div class="list-tabs-wrapper">
       <div class="tab-group">
-        <button class="btn btn-tab btn-active">Items Offered</button>
-        <button class="btn btn-tab">Items Wanted</button>
+        <button class="btn btn-tab" [class.active]="viewMode == 'tab1'" rel="tab1" (click)="viewMode ='tab1'">Items Offered</button>
+        <button class="btn btn-tab" [class.active]="viewMode == 'tab2'" rel="tab2" (click)="viewMode ='tab2'">Items Wanted</button>
       </div>
 
-      <div class="tab-list-group">
+      <div class="tab-list-group" [ngSwitch]="viewMode">
 
-        <div class="list-group">
+        <div class="list-group" *ngSwitchCase="'tab1'">
           <div class="product-wrap" *ngFor='let product of products'>
             <div class="leftSide">
               <img src="../../assets/img/listings/{{product.productImg}}" alt="">
@@ -20,16 +20,16 @@
 
             <div class="rightSide">
               <h3 class="productName">{{product.productName}}</h3>
-              <p>{{product.productDescription}}</p>
+              <p class="desc">{{product.productDescription}}</p>
               <div class="location-author">
-                <span>#{{product.productLocation}}</span>
-                <span>By: {{product.author}}</span>
+                <span class="productLocation">#{{product.productLocation}}</span>
+                <span class="productAuthor">By: {{product.author}}</span>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="list-group"></div>
+        <div class="list-group" *ngSwitchCase="'tab2'"></div>
       </div>
     </div>
   </div>
