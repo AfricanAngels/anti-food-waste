@@ -11,9 +11,17 @@
     letter-spacing: 0.5px;
     text-align: center;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .button-group {
     display: flex;
     justify-content: center;
+}
+
+.btn-sm {
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    height: 36px;
+    text-transform: inherit;
 }

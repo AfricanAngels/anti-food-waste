@@ -14,14 +14,17 @@ import { VerificationCompletedComponent } from './verification-completed/verific
 import { RouterModule, Routes } from '@angular/router';
 import { SetLocationComponent } from './set-location/set-location.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
-import { ChooseActivityComponent } from './choose-activity/choose-activity.component'
+import { ChooseActivityComponent } from './choose-activity/choose-activity.component';
+import { HomeNavComponent } from './shared/home-nav/home-nav.component';
+import { ListingHomepageComponent } from './listing-homepage/listing-homepage.component'
 
 const appRoutes: Routes = [
   {path: '', redirectTo: 'signup', pathMatch: 'full'},
   {path: 'signup', component: SignupComponent},
   {path: 'verified', component: VerificationCompletedComponent},
   {path: 'set-location', component: SetLocationComponent},
-  {path: 'choose-activity', component: ChooseActivityComponent}
+  {path: 'choose-activity', component: ChooseActivityComponent},
+  {path: 'listings', component: ListingHomepageComponent}
 ];
 
 @NgModule({
@@ -31,7 +34,9 @@ const appRoutes: Routes = [
     VerificationCompletedComponent,
     SetLocationComponent,
     SidenavComponent,
-    ChooseActivityComponent
+    ChooseActivityComponent,
+    HomeNavComponent,
+    ListingHomepageComponent
   ],
   imports: [
     BrowserModule,

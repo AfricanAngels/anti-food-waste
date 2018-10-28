@@ -1,0 +1,36 @@
+<app-home-nav></app-home-nav>
+
+<div class="container">
+  <div class="listings-wrapper">
+    <p>Add food items or request for one politely.</p>
+
+    <div class="list-tabs-wrapper">
+      <div class="tab-group">
+        <button class="btn btn-tab btn-active">Items Offered</button>
+        <button class="btn btn-tab">Items Wanted</button>
+      </div>
+
+      <div class="tab-list-group">
+
+        <div class="list-group">
+          <div class="product-wrap" *ngFor='let product of products'>
+            <div class="leftSide">
+              <img src="../../assets/img/listings/{{product.productImg}}" alt="">
+            </div>
+
+            <div class="rightSide">
+              <h3 class="productName">{{product.productName}}</h3>
+              <p>{{product.productDescription}}</p>
+              <div class="location-author">
+                <span>#{{product.productLocation}}</span>
+                <span>By: {{product.author}}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="list-group"></div>
+      </div>
+    </div>
+  </div>
+</div>
