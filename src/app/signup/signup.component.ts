@@ -15,6 +15,8 @@ export class SignupComponent implements OnInit {
     this.router.navigateByUrl('/verified');
   }
 
+  signinUser() {}
+
   ngOnInit() {
 
   }

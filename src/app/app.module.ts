@@ -2,16 +2,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-// import { AppMaterialModule } from './app-material/app-material.module';
 import { MatSidenavModule } from '@angular/material';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
-
+import { HttpClientModule } from '@angular/common/http';
+import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { SignupComponent } from './signup/signup.component';
 import { VerificationCompletedComponent } from './verification-completed/verification-completed.component';
-
-import { RouterModule, Routes } from '@angular/router';
 import { SetLocationComponent } from './set-location/set-location.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { ChooseActivityComponent } from './choose-activity/choose-activity.component';
@@ -41,6 +39,7 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule,
     FormsModule,
+    HttpClientModule,
     BrowserAnimationsModule,
     AngularFontAwesomeModule,
     // AppMaterialModule,
