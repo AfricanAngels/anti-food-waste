@@ -1,0 +1,58 @@
+.setLocation-intro {
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  color: #333333;
+}
+
+.setLocation-form {
+  margin-top: 30px;
+}
+
+.form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.form-group label {
+  font-size: 1rem;
+}
+
+.form-group .search-input {
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+}
+
+.form-group .setLocation-btn-wrap {
+  -webkit-box-flex: 0;
+      -ms-flex: 0;
+          flex: 0;
+}
+
+.form-group .btn {
+  height: 44px;
+  background-color: #ffffff;
+  border: 1px solid #38B449;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.12), 0 2px 2px 0 rgba(0, 0, 0, 0.24);
+          box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.12), 0 2px 2px 0 rgba(0, 0, 0, 0.24);
+}
+
+.button-group {
+  margin-top: 30px;
+}
+
+.button-group .btn {
+  width: 70%;
+}
+/*# sourceMappingURL=set-location.component.css.map */

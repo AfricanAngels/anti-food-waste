@@ -1,0 +1,36 @@
+.sign-form {
+  margin-top: 40px;
+}
+
+.sign-form .btn {
+  width: 70%;
+}
+
+.signup-title {
+  text-align: center;
+}
+
+.signup-title .logo {
+  margin-bottom: 20px;
+}
+
+.signup-title p {
+  color: #333333;
+}
+
+.btn {
+  margin: 0 auto;
+}
+
+.alt-link {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+.alt-link span {
+  text-decoration: underline;
+  font-size: 1rem;
+  font-weight: 500;
+}
+/*# sourceMappingURL=signup.component.css.map */
