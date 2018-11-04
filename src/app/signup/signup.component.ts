@@ -9,6 +9,9 @@ import { Router } from '@angular/router';
 })
 export class SignupComponent implements OnInit {
 
+  // tslint:disable-next-line:no-inferrable-types
+  firstname: string = '';
+
   constructor(private router: Router) { }
 
   signupUser() {

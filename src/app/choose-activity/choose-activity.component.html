@@ -16,7 +16,7 @@
 
     <div class="custom-control custom-radio">
       <div class="check-activity">
-        <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+        <input type="radio" id="customRadio1" name="listingType" [(ngModel)]="listingType" class="custom-control-input" value="offerFood">
         <label class="custom-control-label" for="customRadio1">
           <p class="lead">I want to offer food</p>
           <p class="activity-instruction">Add a photo of item.<br/>Give a title, brief description of item, pick-up
@@ -29,7 +29,7 @@
 
     <div class="custom-control custom-radio">
       <div class="check-activity">
-        <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+        <input type="radio" id="customRadio2" name="listingType" [(ngModel)]="listingType" class="custom-control-input" value="recieveFood">
         <label class="custom-control-label" for="customRadio2">
           <p class="lead">I want an item</p>
           <p class="activity-instruction">Add a photo of item you need.<br/>Give a title, brief description of item,

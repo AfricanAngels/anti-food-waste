@@ -26,6 +26,6 @@ export class ProductService {
         'author': 'Nifesimi',
         'productImg': 'potato-basket.png'
       }
-    ]
+    ];
   }
 }

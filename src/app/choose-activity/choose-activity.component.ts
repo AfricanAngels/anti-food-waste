@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ChooseActivityComponent implements OnInit {
 
+  listingType: boolean = false;
+
   constructor() { }
 
   ngOnInit() {
