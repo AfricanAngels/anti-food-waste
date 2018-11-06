@@ -15,11 +15,11 @@
 
     <p class="setLocation-intro">We use your location to show you nearby available listings.</p>
 
-    <form class="setLocation-form">
+    <form class="setLocation-form" #form='ngForm'>
       <div class="form-row form-group">
         <div class="col search-input">
           <label>Search for your location</label>
-          <input type="text" class="form-control" placeholder="e.g, Yaba, Ikeja, Ajah...">
+          <input type="text" class="form-control" placeholder="e.g, Yaba, Ikeja, Ajah..." name="location" ngModel>
         </div>
         <div class="col setLocation-btn-wrap">
           <button class="btn">GO</button>

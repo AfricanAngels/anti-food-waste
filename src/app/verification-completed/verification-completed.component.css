@@ -1,0 +1,30 @@
+.acct-verified {
+  padding: 20px;
+}
+
+.acct-verified .welcome-title {
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  font-weight: 500;
+  color: #000;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.acct-verified .btn-primary {
+  width: 70%;
+  margin-bottom: 50px;
+}
+
+.acct-verified .welcome-msg {
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  font-weight: 400;
+  color: #000;
+}
+
+.acct-verified .from-team small {
+  font-size: 1rem;
+  color: #999999;
+}
+/*# sourceMappingURL=verification-completed.component.css.map */

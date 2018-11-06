@@ -1,0 +1,33 @@
+.sidebar {
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 20px;
+}
+
+.sidebar ul li a {
+  font-weight: 500;
+}
+
+.sidebar .btn-primary {
+  -webkit-appearance: none;
+  text-transform: capitalize;
+  color: #ffffff;
+  height: inherit;
+  width: 90%;
+}
+
+.sidebar .btn-secondary {
+  background-color: #ffffff;
+  color: #333;
+  border: 1px solid #38B449;
+  width: 90%;
+  -webkit-appearance: none;
+}
+/*# sourceMappingURL=sidenav.component.css.map */

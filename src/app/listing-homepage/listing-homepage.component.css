@@ -1,0 +1,114 @@
+.listings-wrapper {
+  padding: 20px 10px;
+}
+
+.list-tabs-wrapper {
+  margin-top: 30px;
+}
+
+.tab-group {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tab-group .btn {
+  font-weight: 500;
+  width: 50%;
+  border-radius: 0;
+  border: 1px solid #38B449;
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.tab-group .btn.active {
+  color: #fff;
+  background-color: #38B449;
+}
+
+.tab-group .btn-active {
+  color: #fff;
+  background-color: #38B449;
+}
+
+.tab-list-group {
+  margin-top: 25px;
+}
+
+.product-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #DBDBDB;
+  padding-bottom: 20px;
+}
+
+.product-wrap .leftSide {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  width: 25%;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(153, 153, 153, 0.5);
+          box-shadow: 0 2px 4px 0 rgba(153, 153, 153, 0.5);
+  margin-right: 10px;
+  min-height: 100px;
+}
+
+.product-wrap .leftSide img {
+  width: 100%;
+}
+
+.product-wrap .rightSide {
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+}
+
+.product-wrap .rightSide .productName {
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  font-weight: 500;
+  max-height: 1.6rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.product-wrap .rightSide .desc {
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  letter-spacing: 0.24px;
+  max-height: 3rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.product-wrap .rightSide .location-author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.product-wrap .rightSide .location-author .productLocation {
+  font-size: 0.8rem;
+  font-weight: 200;
+  color: #999;
+}
+
+.product-wrap .rightSide .location-author .productAuthor {
+  font-size: 0.85rem;
+  color: #999999;
+}
+/*# sourceMappingURL=listing-homepage.component.css.map */
