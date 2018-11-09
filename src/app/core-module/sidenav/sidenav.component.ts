@@ -1,6 +1,7 @@
 import { NgModule, Component, OnInit } from '@angular/core';
 
 import * as $ from 'jquery';
+
 @Component({
   selector: 'app-sidenav',
   templateUrl: './sidenav.component.html',

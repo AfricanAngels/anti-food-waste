@@ -16,11 +16,11 @@
       <p>Please join to participate in food sharing</p>
     </div>
 
-    <form class="sign-form" #form='ngForm' novalidate>
+    <form class="sign-form">
       <div class="form-row form-group">
         <div class="col">
           <label class="control-label">First name</label>
-          <input #firstName="ngModel" required type="text" class="form-control" placeholder="First name" name="firstname" [(ngModel)]="firstname">
+          <input required type="text" class="form-control" placeholder="First name" name="firstname" ngModel>
         </div>
         <div class="col">
           <label>Last name</label>
