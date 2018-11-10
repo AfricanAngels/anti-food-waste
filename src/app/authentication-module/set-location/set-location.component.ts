@@ -1,13 +1,11 @@
 import { NgModule, Component, OnInit, ViewChild } from '@angular/core';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import { AppMaterialModule } from './../app-material/app-material.module';
+import { AppMaterialModule } from './../../app-material/app-material.module';
 
 import {} from '@types/googlemaps';
 import * as $ from 'jquery';
 
 @NgModule({
   imports: [
-    BrowserAnimationsModule,
     AppMaterialModule
   ]
 })

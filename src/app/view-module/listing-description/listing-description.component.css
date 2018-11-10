@@ -7,7 +7,7 @@
 }
 
 .icon-arrow {
-  background-image: url(../../assets/icons/left-arrow.png);
+  background-image: url(../../../assets/icons/left-arrow.png);
   height: 24px;
   width: 20px;
   background-repeat: no-repeat;
@@ -109,11 +109,11 @@
 }
 
 .social-wrapper .share-btn .icon.icon-facebook {
-  background-image: url(../../assets/icons/facebook.svg);
+  background-image: url(../../../assets/icons/facebook.svg);
 }
 
 .social-wrapper .share-btn .icon.icon-twitter {
-  background-image: url(../../assets/icons/twitter.svg);
+  background-image: url(../../../assets/icons/twitter.svg);
 }
 
 .dateTime-wrapper p {

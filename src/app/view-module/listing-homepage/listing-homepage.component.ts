@@ -1,6 +1,6 @@
-import { IProducts } from './../shared/products';
+import { IProducts } from './../../shared/products';
 import { Component, OnInit } from '@angular/core';
-import { ProductService } from './../services/product.service';
+import { ProductService } from './../../services/product.service';
 
 @Component({
   selector: 'app-listing-homepage',

@@ -8,11 +8,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
-// import { VerificationCompletedComponent } from './verification-completed/verification-completed.component';
-// import { SetLocationComponent } from './set-location/set-location.component';
-// import { ChooseActivityComponent } from './choose-activity/choose-activity.component';
-// import { ListingHomepageComponent } from './listing-homepage/listing-homepage.component';
-// import { ListingDescriptionComponent } from './listing-description/listing-description.component'
+
 import { CoreModuleModule } from './core-module/core-module.module';
 import { AppRoutingModule } from './app-routing.module';
 

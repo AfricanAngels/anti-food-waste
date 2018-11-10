@@ -3,11 +3,9 @@ import { Routes, RouterModule } from '@angular/router';
 
 const appRoutes: Routes = [
   {path: '', loadChildren: './authentication-module/authentication-module.module#AuthenticationModuleModule'},
-  // {path: 'verified', component: VerificationCompletedComponent},
-  // {path: 'set-location', component: SetLocationComponent},
-  // {path: 'choose-activity', component: ChooseActivityComponent},
-  // {path: 'listings', component: ListingHomepageComponent},
-  // {path: 'list-description', component: ListingDescriptionComponent}
+  {path: 'core', loadChildren: './core-module/core-module.module#CoreModuleModule'},
+  {path: 'view', loadChildren: './view-module/view-module.module#ViewModuleModule'},
+  {path: '**', redirectTo: '', pathMatch: 'full'}
 ];
 
 @NgModule({
