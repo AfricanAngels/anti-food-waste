@@ -6,6 +6,10 @@
   width: 70%;
 }
 
+.signup-field {
+  padding: 20px 20px;
+}
+
 .signup-title {
   text-align: center;
 }
@@ -15,7 +19,8 @@
 }
 
 .signup-title p {
-  color: #333333;
+  color: #666666;
+  font-size: 1rem;
 }
 
 .btn {

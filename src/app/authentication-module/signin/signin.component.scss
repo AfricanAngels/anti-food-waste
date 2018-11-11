@@ -1,0 +1,28 @@
+.small {
+    font-size: 0.75rem;
+    color: #999999;
+    line-height: 1.1rem;
+
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.signup-field {
+    padding: 20px 20px;
+}
+
+.signup-title {
+    text-align: center;
+
+    .logo {
+        margin-bottom: 20px;
+    }
+
+    p {
+        color: #666666;
+        font-size: 1rem;
+    }
+}

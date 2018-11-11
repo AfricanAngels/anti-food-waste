@@ -1,0 +1,87 @@
+.login-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.login-wrapper .btn-signin {
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 10px 0;
+  height: 36px;
+}
+
+.login-wrapper .btn-signin .icon {
+  background-repeat: no-repeat;
+  display: inline;
+  position: relative;
+  margin-right: 6px;
+}
+
+.login-wrapper .btn-signin .icon.icon-facebook {
+  background-image: url(../../../assets/icons/facebook-white.svg);
+  width: 9px;
+  height: 15px;
+}
+
+.login-wrapper .btn-signin .icon.icon-twitter {
+  background-image: url(../../../assets/icons/twitter-white.svg);
+  width: 16px;
+  height: 13px;
+}
+
+.login-wrapper .btn-signin .icon.icon-google {
+  background-image: url(../../../assets/icons/google.svg);
+  width: 13px;
+  height: 13px;
+}
+
+.login-wrapper .btn-fb {
+  background-color: #3A5998;
+  color: #ffffff;
+}
+
+.login-wrapper .btn-twitter {
+  background-color: #00ACED;
+  color: #ffffff;
+}
+
+.login-wrapper .btn-google {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #DDDDDD;
+}
+
+.btnContainer {
+  line-height: 1rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.login-title {
+  text-align: center;
+}
+
+.login-title p {
+  color: #666666;
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=login-thirdparty.component.css.map */

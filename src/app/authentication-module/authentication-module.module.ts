@@ -8,6 +8,8 @@ import { SignupComponent } from './signup/signup.component';
 import { VerificationCompletedComponent } from './verification-completed/verification-completed.component';
 import { SigninComponent } from './signin/signin.component';
 import { SetLocationComponent } from './set-location/set-location.component';
+import { LoginThirdpartyComponent } from './login-thirdparty/login-thirdparty.component';
+import { SignupFormComponent } from './signup-form/signup-form.component';
 
 @NgModule({
   imports: [
@@ -20,7 +22,9 @@ import { SetLocationComponent } from './set-location/set-location.component';
     SignupComponent,
     VerificationCompletedComponent,
     SigninComponent,
-    SetLocationComponent
+    SetLocationComponent,
+    LoginThirdpartyComponent,
+    SignupFormComponent
   ],
   exports: [
     SignupComponent,

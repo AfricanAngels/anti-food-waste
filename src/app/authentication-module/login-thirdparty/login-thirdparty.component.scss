@@ -1,0 +1,67 @@
+.login-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    .btn-signin {
+        font-size: 0.9rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+
+        margin: 10px 0;
+        height: 36px;
+
+        .icon {
+            background-repeat: no-repeat;
+            display: inline;
+            position: relative;
+            margin-right: 6px;
+
+            &.icon-facebook {
+                background-image: url(../../../assets/icons/facebook-white.svg);
+                width: 9px;
+                height: 15px;
+            }
+            &.icon-twitter {
+                background-image: url(../../../assets/icons/twitter-white.svg);
+                width: 16px;
+                height: 13px;
+            }
+            &.icon-google {
+                background-image: url(../../../assets/icons/google.svg);
+                width: 13px;
+                height: 13px;
+            }
+        }
+    }
+    .btn-fb {
+        background-color: #3A5998;
+        color: #ffffff;
+    }
+    .btn-twitter {
+        background-color: #00ACED;
+        color: #ffffff;
+    }
+    .btn-google {
+        background-color: #ffffff;
+        color: #000000;
+        border: 1px solid #DDDDDD;
+    }
+}
+.btnContainer {
+    line-height: 1rem;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.login-title {
+    text-align: center;
+
+    p {
+        color: #666666;
+        margin-bottom: 0;
+    }
+}
