@@ -10,7 +10,7 @@ import { HomeNavComponent } from './home-nav/home-nav.component';
   imports: [
     CommonModule,
     FormsModule,
-    CoreModuleRoutingModule,
+    CoreModuleRoutingModule
   ],
   declarations: [
     SidenavComponent,

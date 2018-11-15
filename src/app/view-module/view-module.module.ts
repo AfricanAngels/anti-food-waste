@@ -8,6 +8,7 @@ import { ViewModuleRoutingModule } from './view-module-routing.module';
 import { ListingHomepageComponent } from './listing-homepage/listing-homepage.component';
 import { ListingDescriptionComponent } from './listing-description/listing-description.component';
 import { ChooseActivityComponent } from './choose-activity/choose-activity.component';
+import { TextareaComponent } from './textarea/textarea.component';
 
 @NgModule({
   imports: [
@@ -15,12 +16,13 @@ import { ChooseActivityComponent } from './choose-activity/choose-activity.compo
     FormsModule,
     ViewModuleRoutingModule,
     CoreModuleModule,
-    AuthenticationModuleModule
+    AuthenticationModuleModule,
   ],
   declarations: [
     ListingHomepageComponent,
     ListingDescriptionComponent,
-    ChooseActivityComponent
+    ChooseActivityComponent,
+    TextareaComponent
   ],
   exports: [
     ListingHomepageComponent,

@@ -68,3 +68,16 @@ html {
       padding-top: 30px;
       padding-bottom: 30px;
   }
+
+  .alt-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+
+    span {
+        text-decoration: underline;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+}
