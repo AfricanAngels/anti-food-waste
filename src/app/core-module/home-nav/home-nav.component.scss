@@ -1,0 +1,32 @@
+.icon {
+    display: block;
+    width:22px;
+    height: 22px;
+    // margin-left:20px;
+    margin-right: 20px;
+
+    &.icon-message {
+        background-image: url("../../../assets/icons/message-envelope.svg");
+        background-repeat: no-repeat;
+    }
+    &.icon-search {
+        background-image: url("../../../assets/icons/search.svg");
+        background-repeat: no-repeat;
+    }
+}
+
+.rightPart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navTitle-wrap .btn-link {
+    color: #333;
+    padding-left: 0;
+}
+
+.sidebar {
+    background-color:#ffffff;
+    color: #333;
+}

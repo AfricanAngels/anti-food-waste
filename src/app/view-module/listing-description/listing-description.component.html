@@ -1,0 +1,54 @@
+<app-home-nav></app-home-nav>
+
+<div class="container">
+  <main class="desc-wrapper">
+    <div class="goBack" (click)="goBack()">
+      <span class="icon icon-arrow"></span>
+    </div>
+
+    <div class="img-wrapper">
+      <img src="../../assets/img/lg-listings/food1.png" alt="">
+    </div>
+
+    <div class="list-desc-wrapper">
+      <h2 class="list-desc-title">Small bag of rice</h2>
+
+      <app-textarea *ngIf="!textareaHidden"></app-textarea>
+
+      <p *ngIf="!isHidden" class="list-desc-text">These are available from a family’s party. You can send a message if you really need it.</p>
+
+      <button *ngIf="!isHidden" class="btn btn-primary" (click)="requestItem()">Request item</button>
+    </div>
+
+    <div *ngIf="!isHidden" class="social-datetime-wrapper">
+      <div class="social-wrapper">
+        <button class="share-btn fb-share">
+          <span class="icon icon-facebook"></span>
+        </button>
+
+        <button class="share-btn twitter-share">
+          <span class="icon icon-twitter"></span>
+        </button>
+      </div>
+
+      <div class="dateTime-wrapper">
+        <p>Posted 5 hrs ago</p>
+      </div>
+    </div>
+
+    <div *ngIf="!isHidden" class="author-wrapper">
+      <p class="postedBy">Posted by</p>
+      <div class="avatarName-wrapper">
+        <div class="img-wrapper">
+          <img src="../../../assets/img/users/avi.jpg" alt="">
+        </div>
+
+        <p class="author-name">Jide Lambo</p>
+      </div>
+    </div>
+
+    <div class="back-wrapper">
+      <a href="">Back to Browse view</a>
+    </div>
+  </main>
+</div>

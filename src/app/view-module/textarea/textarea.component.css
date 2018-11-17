@@ -1,0 +1,24 @@
+.textarea {
+  border: 1px solid #DBDBDB;
+  background-color: #fff;
+  width: 100%;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  font-size: #999999;
+}
+
+.note {
+  text-align: left;
+  font-size: 12px;
+}
+
+.note span {
+  color: #F41444;
+}
+
+.btn {
+  margin-top: 20px;
+}
+/*# sourceMappingURL=textarea.component.css.map */

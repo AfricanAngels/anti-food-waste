@@ -1,0 +1,89 @@
+.navbar-bg {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+.navTitle {
+  color: #333333;
+  font-size: 1.1rem;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.goBack {
+  margin-right: 20px;
+}
+
+.icon {
+  background-image: url(../../../assets/icons/left-arrow.png);
+  height: 24px;
+  width: 20px;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.welcome-note {
+  margin-top: 20px;
+}
+
+.welcome-note h4 {
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+  text-align: center;
+  color: #333333;
+}
+
+.choose-activity-wrap {
+  margin-top: 30px;
+}
+
+.choose-activity-wrap .custom-control {
+  padding-left: 0;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.choose-activity-wrap .custom-control .custom-control-label {
+  padding-left: 50px;
+}
+
+.choose-activity-wrap .custom-control .custom-control-label::before {
+  left: 0;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid #38B449;
+}
+
+.choose-activity-wrap .custom-control .custom-control-label .lead {
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  font-weight: 500;
+}
+
+.choose-activity-wrap .custom-control .custom-control-label .activity-instruction {
+  margin-bottom: 0;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+}
+
+.choose-activity-wrap .check-activity {
+  background: #FFFFFF;
+  border: 1px solid #DBDBDB;
+  border-radius: 4px;
+  padding: 25px 20px;
+  min-height: 160px;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.custom-radio .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #38B449;
+}
+
+.btn-primary {
+  width: 60%;
+}
+/*# sourceMappingURL=choose-activity.component.css.map */
