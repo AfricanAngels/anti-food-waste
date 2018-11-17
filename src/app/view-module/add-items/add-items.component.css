@@ -1,0 +1,57 @@
+.desc-wrapper {
+  position: relative;
+  padding: 20px 10px;
+}
+
+.navTitle {
+  color: #333333;
+}
+
+.uploadImg-wrapper {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.uploadImg-wrapper .btn {
+  text-align: center;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 500;
+}
+
+.uploadImg-wrapper p {
+  text-align: center;
+  color: #666666;
+}
+
+.uploadImg-wrapper p span {
+  color: #F41444;
+}
+
+.photo-wrapper {
+  width: 100%;
+  height: 120px;
+  background-color: #D8D8D8;
+  border: 1px solid #DBDBDB;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 5px;
+}
+
+.icon {
+  display: block;
+  width: 16px;
+  height: 12px;
+  margin-right: 20px;
+}
+
+.icon.icon-camera {
+  background-image: url("../../../assets/icons/camera.svg");
+  background-repeat: no-repeat;
+}
+/*# sourceMappingURL=add-items.component.css.map */

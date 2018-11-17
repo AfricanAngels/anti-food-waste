@@ -9,6 +9,7 @@ import { ListingHomepageComponent } from './listing-homepage/listing-homepage.co
 import { ListingDescriptionComponent } from './listing-description/listing-description.component';
 import { ChooseActivityComponent } from './choose-activity/choose-activity.component';
 import { TextareaComponent } from './textarea/textarea.component';
+import { AddItemsComponent } from './add-items/add-items.component';
 
 @NgModule({
   imports: [
@@ -22,7 +23,8 @@ import { TextareaComponent } from './textarea/textarea.component';
     ListingHomepageComponent,
     ListingDescriptionComponent,
     ChooseActivityComponent,
-    TextareaComponent
+    TextareaComponent,
+    AddItemsComponent
   ],
   exports: [
     ListingHomepageComponent,
