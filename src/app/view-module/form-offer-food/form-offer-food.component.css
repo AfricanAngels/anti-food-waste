@@ -6,6 +6,7 @@
 
 .locate-btn .btn {
   height: 100%;
+  width: 100%;
   text-transform: capitalize;
   font-weight: 500;
 }
