@@ -17,7 +17,7 @@
 
       <p *ngIf="!isHidden" class="list-desc-text">These are available from a family’s party. You can send a message if you really need it.</p>
 
-      <button *ngIf="!isHidden" class="btn btn-primary" (click)="requestItem()">Request item</button>
+      <button *ngIf="!btnHiden" class="btn btn-primary" (click)="requestItem()">Request item</button>
     </div>
 
     <div *ngIf="!isHidden" class="social-datetime-wrapper">

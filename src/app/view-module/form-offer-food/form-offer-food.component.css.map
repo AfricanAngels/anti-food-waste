@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAC;EACX,IAAI,EAAE,CAAC;CACV;;AAED,AAEI,WAFO,CAEP,IAAI,CAAC;EACD,MAAM,EAAE,IAAI;EACZ,cAAc,EAAG,UAAU;EAC3B,WAAW,EAAE,GAAG;CACnB",
+    "sources": [
+        "form-offer-food.component.scss"
+    ],
+    "names": [],
+    "file": "form-offer-food.component.css"
+}

@@ -10,6 +10,8 @@ import { ListingDescriptionComponent } from './listing-description/listing-descr
 import { ChooseActivityComponent } from './choose-activity/choose-activity.component';
 import { TextareaComponent } from './textarea/textarea.component';
 import { AddItemsComponent } from './add-items/add-items.component';
+import { FormOfferFoodComponent } from './form-offer-food/form-offer-food.component';
+import { FormRecieveFoodComponent } from './form-recieve-food/form-recieve-food.component';
 
 @NgModule({
   imports: [
@@ -24,7 +26,9 @@ import { AddItemsComponent } from './add-items/add-items.component';
     ListingDescriptionComponent,
     ChooseActivityComponent,
     TextareaComponent,
-    AddItemsComponent
+    AddItemsComponent,
+    FormOfferFoodComponent,
+    FormRecieveFoodComponent
   ],
   exports: [
     ListingHomepageComponent,

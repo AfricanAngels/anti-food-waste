@@ -9,6 +9,7 @@ import { Location } from '@angular/common';
 export class ListingDescriptionComponent implements OnInit {
 
   isHidden: boolean = false;
+  btnHiden: boolean = false;
   textareaHidden: boolean = true;
 
   constructor(private location: Location) { }
@@ -16,6 +17,8 @@ export class ListingDescriptionComponent implements OnInit {
   requestItem() {
     this.isHidden = true;
     this.textareaHidden = false;
+    this.btnHiden = true;
+    console.log('hehehe');
   }
 
   goBack() {
